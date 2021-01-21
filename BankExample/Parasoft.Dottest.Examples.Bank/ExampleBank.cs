@@ -22,9 +22,9 @@ namespace Parasoft.Dottest.Examples.Bank
             bank.AddCurrency(new CurrencyInfo("PLN", "zł", "{0} {1}"));
             bank.AddCurrency(new CurrencyInfo("ISK", "kr", "{0} {1}"));
 
-            BankUser user1 = new BankUser("John", "White", "jwhite", "jwhite");
-            BankUser user2 = new BankUser("Angela", "Smith", "asmith", "asmith");
-            BankUser user3 = new BankUser("Kenta", "Suzuki", "ksuzuki", "ksuzuki");
+            BankUser user1 = new BankUser("John", "White", "jwhite", "jwhite"); // parasoft-suppress SEC.HPW "xxxx"
+            BankUser user2 = new BankUser("Angela", "Smith", "asmith", "asmith"); // parasoft-suppress SEC.HPW "xxxx"
+            BankUser user3 = new BankUser("Kenta", "Suzuki", "ksuzuki", "ksuzuki"); // parasoft-suppress SEC.HPW "xxxx"
 
             bank.AddUser(user1);
             bank.AddUser(user2);
