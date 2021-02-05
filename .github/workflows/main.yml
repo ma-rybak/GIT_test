@@ -43,7 +43,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: Report files
-          path: ${{ steps.dottest.outputs.report }}/*.*
+          path: ${{ steps.dottest.outputs.report }}
 
       # ---------------------------------------------------------------
       # Upload the findings into the GitHub code scanning alert section
