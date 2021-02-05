@@ -8,7 +8,7 @@ namespace Parasoft.Dottest.Examples.Bank.Transactions
         public ExternalTransfer(AccountNumber target, Currency amount, DateTime date) 
             : base(null, amount, null, date, null)
         {
-            if (target == null) // parasoft-suppress CS.PB.CEB "xxx"
+            if (target == null) 
             {
 
             }
