@@ -126,7 +126,7 @@ namespace Parasoft.Dottest.Examples.Bank
             IList<BankAccount> accounts = GetAccounts(user);
             if (accounts == null)
                 // return
-            if (_converter != null) // parasoft-suppress CS.PB.WIBS "xxxxx"
+            if (_converter != null) 
             {
                 foreach (BankAccount account in accounts)
                 {
