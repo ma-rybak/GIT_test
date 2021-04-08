@@ -37,6 +37,7 @@ jobs:
           testConfig: builtin://Recommended Rules
           # Fails the command with exit code 2 if any findings are reported.
           fail: false
+          sarifMode: 'legacy'
 
       # ---------------------------------------------------------------
       # Archive the findings reports as job artifact
@@ -52,4 +53,3 @@ jobs:
         uses: github/codeql-action/upload-sarif@v1
         with:
           sarif_file: ${{ steps.dottest.outputs.report }}
-          sarifMode: 'legacy'
