@@ -38,7 +38,7 @@ jobs:
           # Fails the command with exit code 2 if any findings are reported.
           fail: false
           reportDir: 'D:\tmp\gittest\reports'
-          sarifMode: 'builtin'
+          sarifMode: 'legacy'
 
       # ---------------------------------------------------------------
       # Archive the findings reports as job artifact
