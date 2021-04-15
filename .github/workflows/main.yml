@@ -37,7 +37,7 @@ jobs:
           testConfig: builtin://Recommended Rules
           # Fails the command with exit code 2 if any findings are reported.
           fail: false
-          reportDir: .\reports
+          reportDir: 'D:\tmp\gittest\reports'
           sarifMode: 'builtin'
 
       # ---------------------------------------------------------------
